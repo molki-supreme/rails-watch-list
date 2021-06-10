@@ -1,0 +1,12 @@
+<div class="row justify-content-center">
+  <div class="col-3">
+    <h5 class="text-center">Add a list</h5>
+      <%= simple_form_for @list do |f| %>
+        <%= f.input :name, placeholder: 'category' %>
+        <%= f.submit class: 'btn btn-flat' %>
+      <% end %>
+  </div>
+</div>
+
+
+
